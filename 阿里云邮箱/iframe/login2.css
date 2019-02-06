@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login2 .qrcode{
+    background-image: url(../img/QRcode.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 290px;
+    width: 100%;
+    position: relative;
+}
+.login2 .prompt{
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+}
+.prompt .text,.refresh{
+    text-align: center;
+    color: #898d90;
+    font-size: 14px;
+}
+.prompt .refresh{
+    color: #38adff;
+    cursor: pointer;
+}
+.refresh::before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/refresh.png);
+    background-size: 100%;
+    vertical-align: -3px;
+    background-repeat: no-repeat;
+}
